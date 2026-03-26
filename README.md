@@ -30,3 +30,13 @@ Git rebase is used to move or combine a sequence of commits onto another base br
 **Command:**
 ```bash
 git rebase main
+
+
+git cherry-pick <commit-hash>
+
+---
+
+# ✅ 5. Save, Commit Changes
+```bash
+git add README.md
+git commit -m "Add version control explanations to README"
