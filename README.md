@@ -1,5 +1,3 @@
-# version-control-assignment
-
 # Version Control Assignment
 
 ## What is Version Control?
