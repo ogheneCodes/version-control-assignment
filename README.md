@@ -32,9 +32,16 @@ Git rebase is used to move or combine a sequence of commits onto another base br
 git rebase main
 
 
-git cherry-pick <commit-hash>
+## git cherry-pick <commit-hash>
 
----
+---What is git cherry-pick?
+
+Git cherry-pick means taking a specific commit from one branch and applying it to another branch.
+
+Instead of merging the whole branch, you just pick one particular change you want.
+
+👉 Example:
+You fixed a bug in develop, but you only want that fix in main — you use cherry-pick.
 
 # ✅ 5. Save, Commit Changes
 ```bash
